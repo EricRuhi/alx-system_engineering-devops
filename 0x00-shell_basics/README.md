@@ -8,3 +8,4 @@ mkdir to create a directory named my_first_directory in the /tmp/ directory
 mv script to move the file betty from /tmp/ to /tmp/my_first_directory
 rm script to delete file betty
 rm -r script to delete the directory my_first_directory that is in the /tmp directory
+cd .. to changes the working directory to the previous one
