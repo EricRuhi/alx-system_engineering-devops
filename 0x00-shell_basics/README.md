@@ -10,3 +10,4 @@ rm script to delete file betty
 rm -r script to delete the directory my_first_directory that is in the /tmp directory
 cd .. to changes the working directory to the previous one
 ls -al . .. /boot script to show list of all files, even ones beginning with a period character, in current directory, parent working directory and /boot
+file /tmp/iamafile to prints the type of the file
