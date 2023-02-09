@@ -1,15 +1,1 @@
-pwd script prints the absolute path name of the current working directory
-ls script is displaying the contents list of my current directory
-cd / changes the working directory to the user’s home directory
-ls -l to display current directory contents in a long format
-ls -la display current directory contents, including hidden files
-ls -l -a -n to display current directory contents long format with user and group IDs displayed numerically and hidden files
-mkdir to create a directory named my_first_directory in the /tmp/ directory
-mv script to move the file betty from /tmp/ to /tmp/my_first_directory
-rm script to delete file betty
-rm -r script to delete the directory my_first_directory that is in the /tmp directory
-cd .. to changes the working directory to the previous one
-ls -al . .. /boot script to show list of all files, even ones beginning with a period character, in current directory, parent working directory and /boot
-file /tmp/iamafile to prints the type of the file
-ln -s /bin/ls __ls__ script to create a symbolic link
-cp -rua *.html ../ script copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
+mv [[:upper:]]* /tmp/u to move all files beginning with an uppercase letter to the directory /tmp/u
