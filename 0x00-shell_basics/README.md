@@ -12,3 +12,4 @@ cd .. to changes the working directory to the previous one
 ls -al . .. /boot script to show list of all files, even ones beginning with a period character, in current directory, parent working directory and /boot
 file /tmp/iamafile to prints the type of the file
 ln -s /bin/ls __ls__ script to create a symbolic link
+cp -rua *.html ../ script copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory
