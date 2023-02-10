@@ -13,3 +13,4 @@ mkdir -m 751 my_dir to make directory and set it to mode 751
 chgrp school hello script to change from current user to group school
 sudo chown vincent:staff * to change owner and group owne
 sudo chown -h vincent:staff _hello to change owner and owner group for symbolic link
+sudo chown --from=<current_user> new_user file to change user only if user is specified
