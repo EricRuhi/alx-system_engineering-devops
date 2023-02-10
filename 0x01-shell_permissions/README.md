@@ -9,3 +9,4 @@ chmod 755 to give user, group and other users execution permission
 chmod 007 give user and group user 0 access and other user all the access
 chmod 753 to give user all access, gruop user reading and execution acess and other user writing and execution permission
 chmod u=rw,g=rw,o=r hello elloh to match modes
+mkdir -m 751 my_dir to make directory and set it to mode 751
