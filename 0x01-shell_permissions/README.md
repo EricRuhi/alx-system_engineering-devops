@@ -12,3 +12,4 @@ chmod u=rw,g=rw,o=r hello elloh to match modes
 mkdir -m 751 my_dir to make directory and set it to mode 751
 chgrp school hello script to change from current user to group school
 sudo chown vincent:staff * to change owner and group owne
+sudo chown -h vincent:staff _hello to change owner and owner group for symbolic link
