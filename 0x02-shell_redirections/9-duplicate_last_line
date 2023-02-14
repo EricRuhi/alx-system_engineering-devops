@@ -1,2 +1,2 @@
 #!/bin/bash
-tac iacta | head -n 1 | tee -a iacta
+echo "$(tail -n 1 iacta)" >> iacta
